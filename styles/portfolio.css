@@ -4,6 +4,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    padding: 50px 230px;
 }
 
 nav .nav-title{
@@ -46,4 +47,38 @@ padding: 20px 35px;
 margin-top: 0px;
 color: white;
 
+}
+
+.header{
+    background-color: #FFF8F3;
+}
+
+.btn-cv{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0px;
+    font-size: 20px;
+    padding: 20px 35px;
+    margin-top: 0px;
+    color: white;
+}
+
+.btn-contact{
+    
+    border-radius: 5px;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    font-size: 20px;
+    padding: 18px 33px;
+    margin-top: 0px;
+    background-color: white;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+#img-asif{
+    width: 500px;
 }
