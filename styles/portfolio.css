@@ -3,11 +3,13 @@ body{
 }
 nav{
     display: flex;
+    justify-content: space-between;
 }
 
 nav .nav-title{
     font-size: 45px;
     font-weight: 800;
+  
 }
 
 .orange-i{
@@ -16,6 +18,7 @@ nav .nav-title{
 
 nav>ul{
     display: flex;
+    align-items: center;
 }
 
 nav ul>li{
@@ -37,5 +40,10 @@ text-decoration: none;
 #hire-btn{
     border-radius: 5px;
 background: #FD6E0A;
+border: 0px;
+font-size: 20px;
+padding: 20px 35px;
+margin-top: 0px;
+color: white;
 
 }
