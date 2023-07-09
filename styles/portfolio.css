@@ -61,6 +61,7 @@ color: white;
     padding: 20px 35px;
     margin-top: 0px;
     color: white;
+    margin-right: 20px;
 }
 
 .btn-contact{
@@ -77,8 +78,57 @@ color: white;
 .banner{
     display: flex;
     align-items: center;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 30px 30px 0px 150px;
+    justify-content: space-between;
 }
 
 #img-asif{
     width: 500px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+
+}
+
+.banner-title{
+    font-size: 90px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.banner p{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+/* About me designing */
+.about{
+    margin: 130px 230px;
+    background-color: #FFF8F3;
+    padding: 130px;
+}
+
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+}
+
+.section-content{
+   line-height: 30px;
+   font-size: 20px;
+   font-weight: 400;
+   text-align: center;
 }
